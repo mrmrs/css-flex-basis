@@ -21,15 +21,15 @@ or download the css on github and include in your project.
 ```
 .fb-i { flex-basis: inherit; }
 
-@include break(not-small) {
+@media screen and (min-width: 48em) {
   .fb-i-ns { flex-basis: inherit; }
 }
 
-@include break(medium) {
+@media screen and (min-width: 48em) and (max-width: 64em) {
   .fb-i-m { flex-basis: inherit; }
 }
 
-@include break(large) {
+@media screen and (min-width: 64em)  {
   .fb-i-l { flex-basis: inherit; }
 }
 
