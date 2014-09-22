@@ -20,7 +20,8 @@ View on [npm](https://www.npmjs.org/package/css-flex-basis)
 ## File Size
 
 303B flex-basis.css
-241B flex-basis.min.css
+241B flex-basis.min.css 
+120B minified and gzipped
 
 ## The Code
 ```
