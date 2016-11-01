@@ -1,2 +1,2 @@
-.fb-i{flex-basis:inherit}@media screen and (min-width:48em){.fb-i-ns{flex-basis:inherit}}@media screen and (min-width:48em) and (max-width:64em){.fb-i-m{flex-basis:inherit}}@media screen and (min-width:64em){.fb-i-l{flex-basis:inherit}}
+.fb-i{-ms-flex-preferred-size:inherit;flex-basis:inherit}@media screen and (min-width:48em){.fb-i-ns{-ms-flex-preferred-size:inherit;flex-basis:inherit}}@media screen and (min-width:48em) and (max-width:64em){.fb-i-m{-ms-flex-preferred-size:inherit;flex-basis:inherit}}@media screen and (min-width:64em){.fb-i-l{-ms-flex-preferred-size:inherit;flex-basis:inherit}}
 
