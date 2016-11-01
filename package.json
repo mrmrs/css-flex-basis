@@ -1,7 +1,7 @@
 {
   "name": "css-flex-basis",
   "style": "flex-basis.css",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "homepage": "http://github.com/mrmrs/css-flex-basis",
   "description": "Css module of single purpose classes for flex basis",
   "keywords": [
