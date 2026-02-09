@@ -1,38 +1,44 @@
 {
   "name": "css-flex-basis",
-  "style": "flex-basis.css",
-  "version": "1.0.8",
-  "homepage": "http://github.com/mrmrs/css-flex-basis",
-  "description": "Css module of single purpose classes for flex basis",
+  "version": "2.0.0",
+  "description": "Functional CSS for flex-basis",
+  "style": "dist/flex-basis.css",
+  "main": "dist/flex-basis.css",
+  "exports": {
+    ".": "./dist/flex-basis.css",
+    "./dist/*": "./dist/*",
+    "./src/*": "./src/*"
+  },
+  "files": [
+    "dist",
+    "src"
+  ],
+  "scripts": {
+    "build": "node build.js",
+    "prepublishOnly": "npm run build"
+  },
   "keywords": [
     "css",
-    "oocss",
-    "flex-basis"
+    "flex-basis",
+    "utility",
+    "single-purpose",
+    "functional-css"
   ],
-  "css-flex-basis": {
+  "homepage": "https://github.com/mrmrs/css-flex-basis",
+  "repository": {
     "type": "git",
-    "url": "http://github.com/mrmrs/css-flex-basis.git"
+    "url": "https://github.com/mrmrs/css-flex-basis.git"
   },
   "bugs": {
-    "url": "https://github.com/mrmrs/css-flex-basis/issues",
-    "email": "hi@mrmrs.cc"
+    "url": "https://github.com/mrmrs/css-flex-basis/issues"
   },
   "author": {
     "name": "Adam Morse",
     "email": "hi@mrmrs.cc",
     "url": "http://mrmrs.cc"
   },
-  "contributors": [
-    {
-      "name": "Adam Morse",
-      "email": "hi@mrmrs.cc"
-    }
-  ],
-  "license": "MIT",
+  "license": "ISC",
   "devDependencies": {
     "lightningcss": "^1"
-  },
-  "scripts": {
-    "build": "node build.js"
   }
 }
