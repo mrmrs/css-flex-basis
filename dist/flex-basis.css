@@ -1,21 +1,21 @@
-.fb-i {
+.flex-basis-inherit {
   flex-basis: inherit;
 }
 
 @media screen and (width >= 32em) {
-  .fb-i-s {
+  .flex-basis-inherit-s {
     flex-basis: inherit;
   }
 }
 
 @media screen and (width >= 48em) {
-  .fb-i-m {
+  .flex-basis-inherit-m {
     flex-basis: inherit;
   }
 }
 
 @media screen and (width >= 96em) {
-  .fb-i-l {
+  .flex-basis-inherit-l {
     flex-basis: inherit;
   }
 }
