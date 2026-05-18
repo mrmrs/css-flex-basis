@@ -6,8 +6,8 @@ Functional CSS for flex-basis
 
 | File | Size |
 |------|------|
-| `dist/flex-basis.css` | 329 bytes |
-| `dist/flex-basis.min.css` | 261 bytes (103 Gzipped) |
+| `dist/flex-basis.css` | 273 bytes |
+| `dist/flex-basis.min.css` | 205 bytes (101 Gzipped) |
 
 ## Install
 
@@ -39,10 +39,10 @@ npm install css-flex-basis
 
 | Class   | Value                    |
 |---------|--------------------------|
-| `.flex-basis-inherit` | `flex-basis: inherit;` |
-| `.flex-basis-inherit-s` | `flex-basis: inherit;` |
-| `.flex-basis-inherit-m` | `flex-basis: inherit;` |
-| `.flex-basis-inherit-l` | `flex-basis: inherit;` |
+| `.fb-i` | `flex-basis: inherit;` |
+| `.fb-i-s` | `flex-basis: inherit;` |
+| `.fb-i-m` | `flex-basis: inherit;` |
+| `.fb-i-l` | `flex-basis: inherit;` |
 
 ### Responsive
 
@@ -54,7 +54,7 @@ Responsive variants are available for each class with the following suffixes:
 | `-m`   | `min-width: 48em`        |
 | `-l`   | `min-width: 96em`        |
 
-Example: `.flex-basis-inherit-m` applies the property at the medium breakpoint and above.
+Example: `.fb-i-m` applies the property at the medium breakpoint and above.
 
 ## Building
 
